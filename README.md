@@ -34,7 +34,7 @@ Usage: /autotrace/.libs/autotrace [options] <image_file_name>
 For more information, use ''-help''.
 ```
 
-**Note:** You won't be able to run `autotrace` on files outside of the directory you are in (i.e. `../` won't work). Only files in the current directory or sub-directory can be referenced.
+**Note:** You won't be able to run `autotrace` on files outside of the directory you are in (i.e. `../` won't work). Only files in the current directory or sub-directory can be referenced. If such functionality is needed, try out the [`shim/autotrace`](shim/autotrace) script, which can be copied into `/usr/local/bin` (or use `make install-shim`).
 
 # Example and Demo
 
