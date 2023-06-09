@@ -16,6 +16,10 @@
 # - It does not support filepaths with colons.
 # - It may not handle complicated filepaths with special characters.
 
+# Exit, if any of the follwing commands fails.
+set -e
+
+# Exit, if any of the arguments have an equals sign.
 for var in "$@"
 do
     case $var in
