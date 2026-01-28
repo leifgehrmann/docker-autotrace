@@ -1,4 +1,4 @@
-FROM debian:stable-20230522-slim
+FROM debian:stable-20260112-slim
 
 # 1. Fetch new versions of packages.
 # 2. Fetch `git`, so we can download the `autotrace` source.
